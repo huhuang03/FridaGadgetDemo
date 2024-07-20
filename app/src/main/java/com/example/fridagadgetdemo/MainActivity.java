@@ -21,11 +21,6 @@ import java.io.OutputStream;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "Frida_Test";
 
-    // Used to load the 'fridagadgetdemo' library on application startup.
-    static {
-        System.loadLibrary("fridagadgetdemo");
-    }
-
     private Context mContext;
     private ActivityMainBinding binding;
 
