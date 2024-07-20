@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                ///data/data/com.example.fridagadgetdemo/files/frida-test.js
+                ///data/local/tmp/myscript.js
                 copyFileFromAssetsToFilesDir("frida-test.js", "frida-test.js");
                 //加载fridagadget so 之后就会加载hook脚本
                 System.loadLibrary("frida");

@@ -20,7 +20,7 @@
 {
   "interaction": {
     "type": "script",
-    "path": "/data/data/com.example.fridagadgetdemo/files/frida-test.js",
+    "path": "/data/local/tmp/myscript.js",
     "on_load": "resume"
   }
 }
